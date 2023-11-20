@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header>
+         <a href="#" class="logo">iMoves</a>
+         <ul class="nav">
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Trend</a></li>
+            <li><a href="#">My List</a></li>
+         </ul>
+         <div class="search">
+            <input type="text" placeholder="Search">
+            <a href="#"><i class="fas fa-search"></i></a>
+         </div>
+    </header>
+    
+    <div class="banner">
+        <div class="content the-little-mermaid active">
+            <img src="./images/the-little-mermaid-title.png" alt="" class="movie-title">
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus eveniet molestias quisquam quia amet laborum et voluptatem esse voluptatibus. Quisquam atque voluptates, inventore doloremque aliquid esse distinctio nulla debitis?</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i> Watch</a>
+                <a href="#"><i class="fas fa-plus"></i> My List</a>
+                
+            </div>
+        </div>
+
+        <div class="content bg-65">
+            <img src="./images/movies/bg-65.jpeg" alt="" class="movie-title">
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus eveniet molestias quisquam quia amet laborum et voluptatem esse voluptatibus. Quisquam atque voluptates, inventore doloremque aliquid esse distinctio nulla debitis?</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i> Watch</a>
+                <a href="#"><i class="fas fa-plus"></i> My List</a>
+                
+            </div>
+        </div>
+
+        <div class="content the-covenant">
+            <img src="./images/movies/the-covenant.jpg" alt="" class="movie-title">
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus eveniet molestias quisquam quia amet laborum et voluptatem esse voluptatibus. Quisquam atque voluptates, inventore doloremque aliquid esse distinctio nulla debitis?</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i> Watch</a>
+                <a href="#"><i class="fas fa-plus"></i> My List</a>
+                
+            </div>
+        </div>
+
+        <div class="content the-black-demon">
+            <img src="./images/movies/the-black-demon.jpg" alt="" class="movie-title">
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus eveniet molestias quisquam quia amet laborum et voluptatem esse voluptatibus. Quisquam atque voluptates, inventore doloremque aliquid esse distinctio nulla debitis?</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i> Watch</a>
+                <a href="#"><i class="fas fa-plus"></i> My List</a>
+                
+            </div>
+        </div>
+
+        <div class="content the-tank">
+            <img src="./images/movies/the-tank.jpeg" alt="" class="movie-title">
+            <h4>
+                <span>2023</span><span><i>12+</i></span><span>2h 14min</span><span>Romance</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus eveniet molestias quisquam quia amet laborum et voluptatem esse voluptatibus. Quisquam atque voluptates, inventore doloremque aliquid esse distinctio nulla debitis?</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i> Watch</a>
+                <a href="#"><i class="fas fa-plus"></i> My List</a>
+                
+            </div>
+        </div>
+
+
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item" onClick="changeBg('bg-little-mermaid.jpg', 'the-little-mermaid');">
+                    <img src="./images/movies/the-little-mermaid.jpeg" alt="" srcset="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-65.jpeg', 'bg-65');">
+                    <img src="./images/movies/65.jpg" alt="" srcset="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-the-covenant.jpeg', 'the-covenant');">
+                    <img src="./images/movies/the-covenant.jpg" alt="" srcset="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-the-black-demon.jpeg', 'the-black-demon');">
+                    <img src="./images/movies/the-black-demon.jpg" alt="" srcset="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-the-tank.jpeg', 'the-tank');">
+                    <img src="./images/movies/the-tank.jpeg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <a  href="#" class="play"  onClick="toggleVideo();"><i class="fas fa-play-circle"></i> Watch Trailer</a>
+        <ul class="sci">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="traile">
+        <video src="https://www.youtube.com/watch?v=XyzrOkFScS4"
+        muted
+        controls="true" 
+        autoplay="true" >
+        </video>
+        <img class="close" src="./images/close.png" alt="" onClick="toggleVideo();">
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+    // Or with jQuery
+
+    $(document).ready(function(){
+        $('.carousel').carousel();
+    });
+    </script>
+</body>
+</html>
