@@ -70,14 +70,6 @@ input:valid ~ label {
     color: #fff;
 }
 
-.inputbox ion-icon {
-    position: absolute;
-    right: 8px;
-    color: #fff;
-    font-size: 1.2rem;
-    top: 50px;
-}
-
 .forget {
     margin: -15px 0 15px;
     font-size: .9rem;
