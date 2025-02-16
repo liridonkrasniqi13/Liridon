@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #ccc;
+}
+
+img {
+  object-fit: cover;
+}
+
+body {
+  background-color: #09090c;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 2px;
+}
+
+nav .logo i {
+  background: #a3e635;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+nav .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #171717;
+  padding: 8px 20px;
+  gap: 10px;
+  border-radius: 50px;
+}
+
+nav .nav-links a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+nav .nav-links a:hover {
+  color: #a3e635;
+}
+
+nav .nav-links .separator {
+  width: 5px;
+  height: 5px;
+  background: #a3e635;
+  border-radius: 50%;
+}
+
+nav .login {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #171717;
+  padding: 4px 4px 4px 14px;
+  border-radius: 50px;
+}
+
+nav .login img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+nav .login a {
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
